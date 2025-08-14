@@ -31,8 +31,8 @@ body {
     transition: all 0.3s;
 }
 .toggle-buttons button.active {
-    color: yellow;
-    /* background: #f8c94a; */
+    color: rgb(0, 0, 0);
+    background: #f8c94a;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
@@ -125,6 +125,8 @@ body {
 .footer-column {
     flex: 1 1 200px;
     margin: 10px;
+    /* align-items: center; */
+    text-align: center;
 }
 .footer-column h4 {
     color: #ffeb3b;
