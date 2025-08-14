@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-image: url("https://templatemo.com/templates/templatemo_583_festava_live/images/edward-unsplash-blur.jpg");
+    
+}
+
+.about-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 3.7rem;
+}
+.about-images img{
+    position: relative;
+    border-radius: 3rem;
+   
+}
+.about-images .blog{
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem;
+    width: 90%;
+}
+
+.about-images .blog .infor{
+    position: absolute;
+    bottom: 5rem;
+    background-color:rgba(255, 255, 255, 0.75);
+    padding-inline: 6.5rem;
+    margin-left: 3.5rem;
+    border-radius: 2rem;
+    color: black;
+}
+.about-content{
+    text-align: start;
+    padding: 1rem;
+}
+.about-content h1{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.5rem;  
+}
+.about-content p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.7rem;
+}
+.about-content h3{
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+.infor h1{
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+}
+.infor p {
+    color: rgb(113, 114, 117);
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.7rem;
+}
