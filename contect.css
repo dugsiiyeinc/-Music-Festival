@@ -4,6 +4,10 @@ body {
     background: #fff;
     color: #000;
 }
+ h2 {
+    font-size: 300px;
+    font-weight: 700;
+}
 
 .contact-section {
     text-align: center;
@@ -13,11 +17,14 @@ body {
     font-size: 1.8rem;
     font-weight: bold;
 }
+#formBtn, #mapBtn{
+    color: #F8CB2E;
+}
 .toggle-buttons {
     display: inline-flex;
-    background: #ffffff;
+    background: #f0f8ff;
     border-radius: 30px;
-    padding: 5px;
+    padding: 15px;
     margin: 20px 0;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
@@ -26,13 +33,15 @@ body {
     background: none;
     padding: 10px 20px;
     border-radius: 25px;
+    font-size: 20px;
     cursor: pointer;
     font-weight: bold;
     transition: all 0.3s;
 }
 .toggle-buttons button.active {
     color: rgb(0, 0, 0);
-    background: #f8c94a;
+    size: 100px;
+    background: #ffffff;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
@@ -65,7 +74,8 @@ body {
 .contact-form button {
     background: #f4511e;
     color: #fff;
-    border: none;
+    font-size: 20px;
+    border:none;
     padding: 10px 30px;
     border-radius: 25px;
     cursor: pointer;
@@ -80,7 +90,7 @@ body {
     max-width: 600px;
     margin: auto;
     border-radius: 12px;
-    overflow: hidden;
+    overflow: visible;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
@@ -88,30 +98,33 @@ body {
     background: #f4511e;
     color: #fff;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
-    padding: 20px;
-    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    flex-direction: column-reverse;
+    justify-content: space-between;
 }
 .footer-social {
-    margin-bottom: 20px;
+    float: left;
+    margin-bottom: 40px;
     padding-left: 900px;
 }
 .footer-social a {
     color: #fff;
     font-size: 18px;
-    margin: 0 8px;
+    margin: 8px;
     display: inline-block;
-    transition: color 0.3s;
+    
 }
 .footer-social a:hover {
     color: #ffeb3b;
+    transform: scale(1.3s);
 }
 .footer-title {
-    margin-bottom: 40px;
-    font-size: 8000px;
-    margin-right:  62.5rem;
-    font-size: 1.5rem;
+    margin-bottom: 10px;
+    margin-right:  60.5rem;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 .footer-bottom {
@@ -135,9 +148,10 @@ body {
 .footer-links {
     list-style: none;
     padding: 0;
-    gap:0px;
+    gap:200px;
    
 }
+
 .footer-links li {
     margin-bottom: 5px;
     margin-left: 20px;
@@ -148,8 +162,12 @@ body {
     display: block;
     color: #fff;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 17px;
 }
+ /* h4{
+    font-size: 18px;
+    margin-right: 200px;
+} */
 .footer-column a:hover {
     text-decoration: none;
     color: #d84315;
@@ -161,12 +179,17 @@ body {
       padding: 50px;
     font-size: 15px;
     border-top: 1px solid #222;
-    font-size: 20px;
+    font-size: 15px;
     margin-left: 0;
     margin-right: 0;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
-.copyright :hover{
+.copyright a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+.copyright a:hover{
   text-decoration: none ;
   color: #d84315;
 }
