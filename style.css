@@ -43,7 +43,7 @@ nav{
   justify-content: center;  
   gap: 10px;                
   z-index: 0;
-  margin-top: 41px;
+  margin-top: 42px;
    
 
 }
@@ -111,13 +111,9 @@ h1{
     align-items: center;
     text-align: center;
 }
-.under{
+.under i {
     color: white;
-    margin-top: 800px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin-right: 60px;
+    margin-top: 30px;
 }
 .back-video{
   position: absolute;
@@ -133,6 +129,66 @@ h1{
     cursor: pointer;
     font-size: 12px;
 }
+.under {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 15px 30px;
+  flex-wrap: wrap; 
+  gap: 15px;
+  margin-top: 150px;
+}
+
+.under .info {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  gap: 8px;
+}
+
+.under .info i {
+  color: #ff4500;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.under .social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.under .social span {
+  font-weight: 600;
+  margin-right: 8px;
+  line-height: 1;
+}
+/* .social a{
+    
+} */
+
+.under .social a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #ff4500;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+  line-height: 1;
+  
+}
+
+.under .social a:hover {
+  background: #ff6600;
+}
+
 
 /* about */
 * body {
