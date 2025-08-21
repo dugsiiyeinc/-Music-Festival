@@ -49,10 +49,7 @@ nav{
   z-index: 999;
   margin-top: 0px;
   background: rgba(0, 0, 0, 0.8);
-   
-
 }
-
 nav ul li {
     list-style: none;
     display: inline-block;
