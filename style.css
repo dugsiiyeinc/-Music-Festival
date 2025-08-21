@@ -701,9 +701,6 @@ p, h3 {
     border-bottom: 2px solid orange;
 }
 
-
-
-/* contect */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -833,8 +830,6 @@ body {
 .footer-social a:hover {
   color: #ffd700;
 }
-
-/* Bottom Black Section */
 .footer-bottom {
   background: #000;
   color: #fff;
@@ -888,14 +883,12 @@ body {
 .copyright {
     background: #000;
     color: #ccc;
-    /* text-align: center; */
       padding: 50px;
     font-size: 15px;
     border-top: 1px solid #222;
     font-size: 15px;
     margin-left: 0;
     margin-right: 0;
-    /* cursor: pointer; */
 }
 .copyright a{
     margin-left: 10px;
