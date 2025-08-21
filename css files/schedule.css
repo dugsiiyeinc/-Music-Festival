@@ -6,7 +6,7 @@ body {
   padding: 0;
 }
 
-/* === Schedule Section Background === */
+
 .schedule-section {
   background-image: url('https://templatemo.com/templates/templatemo_583_festava_live/images/nainoa-shizuru-unsplash-blur.jpg');
   background-color: #242424;
@@ -16,18 +16,18 @@ body {
   padding: 60px 0;
 }
 
-/* === Table Shadow === */
+
 .table-responsive {
   filter: drop-shadow(2px 2px 4px #606060);
   overflow-x: auto;
   max-width: 100%;
 }
 
-/* === Schedule Table === */
+
 .schedule-table {
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto; /* center the table */
+  margin: 0 auto; 
   border-collapse: collapse;
   border-radius: 12px;
   overflow: hidden;
@@ -35,7 +35,7 @@ body {
   color: white;
 }
 
-/* Heading */
+
 .row,
 .text-white.mb-4 {
   color: white;
@@ -43,7 +43,7 @@ body {
   text-align: center;
 }
 
-/* Table Head */
+
 .schedule-table thead th {
   background-color: orangered;
   color: white;
@@ -56,7 +56,7 @@ body {
   border-right: none;
 }
 
-/* Table Cells */
+
 .schedule-table th,
 .schedule-table td {
   border-bottom: 1px solid #363a3e;
@@ -71,7 +71,6 @@ body {
   padding: 20px 15px;
 }
 
-/* Cell Backgrounds */
 .schedule-table .bg-warning {
   background: #f0a5a5;
 }
@@ -95,7 +94,6 @@ body {
   position: relative;
 }
 
-/* Text on background images */
 .schedule-table h3,
 .schedule-table p {
   color: white;
@@ -104,7 +102,6 @@ body {
   margin: 5px 0;
 }
 
-/* === Overlay for background cells === */
 .section-overlay {
   position: absolute;
   top: 0;
@@ -115,59 +112,3 @@ body {
   z-index: 1;
 }
 
-/* === Responsive Design === */
-@media screen and (max-width: 992px) {
-  .schedule-table th,
-  .schedule-table td {
-    padding: 20px;
-  }
-
-  .row,
-  .text-white.mb-4 {
-    font-size: 24px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .schedule-table {
-    border: 0;
-  }
-
-  .schedule-table thead {
-    display: none;
-  }
-
-  .schedule-table,
-  .schedule-table tbody,
-  .schedule-table tr,
-  .schedule-table td {
-    display: block;
-    width: 100%;
-  }
-
-  .schedule-table tr {
-    margin-bottom: 20px;
-    border-bottom: 2px solid #ffffff;
-  }
-
-  .schedule-table td {
-    text-align: left;
-    padding: 15px;
-    background-color: rgba(255, 255, 255, 0.05);
-    position: relative;
-  }
-
-  .schedule-table td::before {
-    content: attr(data-label);
-    position: absolute;
-    left: 15px;
-    top: 15px;
-    font-weight: bold;
-    color: orangered;
-    text-transform: uppercase;
-  }
-
-  .schedule-table td:last-child {
-    border-bottom: none;
-  }
-}
