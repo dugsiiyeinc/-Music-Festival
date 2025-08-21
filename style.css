@@ -155,8 +155,6 @@ h1{
   font-weight: 600;
   gap: 8px;
   text-align: center;
-  
- 
 }
 
 .under .info i {
@@ -173,8 +171,7 @@ h1{
 .under .social {
   display: flex;
   align-items: center;
-  gap: 10px;
-  
+  gap: 10px; 
 }
 
 .under .social span {
@@ -204,7 +201,6 @@ h1{
   margin-bottom: 5px;
   
 }
-
 .under .social a:hover {
   background: #ffe100;
 }
@@ -239,7 +235,6 @@ h1{
     display: block;
     box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
-
 .about-images .blog {
     margin-top: 1.5rem;
     display: flex;
