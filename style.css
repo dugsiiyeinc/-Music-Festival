@@ -318,7 +318,7 @@ h1{
 }
 
 .moment-overlay .icon {
-  background: #ffd633; /* yellow circle */
+  background: #ffd633; 
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -341,6 +341,7 @@ h1{
   font-size: 14px;
   color: #555;
 }
+
 /* artist */
 body{
     font-family: 'Open Sans', sans-serif;
@@ -603,14 +604,12 @@ h6 {
     font-weight: bolder;
 }
 
-/* Grid Layout */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
 }
 
-/* Pricing Cards */
 .main, .main2 {
     border: 4px dotted rgb(10, 10, 10);
     border-radius: 10px;
@@ -618,7 +617,6 @@ h6 {
     position: relative;
 }
 
-/* Discount Badge */
 .dis {
     font-size: 20px;
     background-color: #EE5007;
@@ -659,7 +657,6 @@ p, h3 {
     display: block;
 }
 
-/* Features List */
 .ul-1, .ul-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -681,8 +678,6 @@ p, h3 {
 .hack-2, .hack-3 {
     margin-left: 0;
 }
-
-/* Buy Button */
 .Ticket {
     list-style: none;
     padding: 0;
