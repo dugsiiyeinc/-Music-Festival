@@ -65,9 +65,12 @@ nav ul li a{
 nav button li a:hover{
     color: #ee5007;
 }
+nav li a:hover{
+    color: #ee5007;
+}
 nav h1{
     cursor: pointer;
-    ;
+    
 }
 button{
     background-color: #ee5007;
