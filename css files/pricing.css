@@ -1,0 +1,157 @@
+/* Base Styles */
+body {
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+h6 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+/* Grid Layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+/* Pricing Cards */
+.main, .main2 {
+    border: 4px dotted rgb(10, 10, 10);
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+}
+
+/* Discount Badge */
+.dis {
+    font-size: 20px;
+    background-color: #EE5007;
+    border-radius: 50%;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    margin: 0;
+}
+
+/* Pricing Content */
+p, h3 {
+    font-weight: bolder;
+    padding-left: 10px;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.price-1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: black;
+    margin-left: 10px;
+}
+
+.span-1, .span-2 {
+    color: #717275;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+/* Features List */
+.ul-1, .ul-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 20px;
+    padding-left: 20px;
+    list-style: disc;
+    color: #717275;
+    margin: 20px 0;
+}
+
+.ul-1 li, .ul-2 li {
+    margin-bottom: 10px;
+}
+
+.hack-1 {
+    margin-left: 0;
+}
+
+.hack-2, .hack-3 {
+    margin-left: 0;
+}
+
+/* Buy Button */
+.Ticket {
+    list-style: none;
+    padding: 0;
+    margin: 20px  20px;
+}
+
+.Ticket-1 {
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.Ticket-1:hover {
+    border-bottom: 2px solid orange;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    h6 {
+        font-size: 2rem;
+    }
+    
+    .dis {
+        width: 80px;
+        height: 80px;
+        font-size: 0.9rem;
+    }
+    
+    .ul-1, .ul-2 {
+        grid-template-columns: 1fr;
+    }
+    
+    .hack-1, .hack-2, .hack-3 {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    h6 {
+        font-size: 1.8rem;
+    }
+    
+    .price-1 {
+        font-size: 1.8rem;
+    }
+    
+    .dis {
+        width: 70px;
+        height: 70px;
+        top: -15px;
+        right: -15px;
+    }
+}
