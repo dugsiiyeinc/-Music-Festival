@@ -81,5 +81,5 @@ Use a code editor (like VS Code) to make edits or updates.
 
 Developed by [eng sofia ] and [guuled-meecaad]
 
-Haddii aad rabto, waxaan sidoo kale ku dari karaa
+thnaks and enjoy
   
