@@ -6,7 +6,7 @@ Professional Web Music Festival
 
 This website is designed to showcase a vibrant music festival, providing information for visitors, artists, and organizers. It combines visually appealing design with smooth navigation and responsiveness, making it perfect for viewing on phones, tablets, and desktop computers.
 
-The festival website highlights schedules, performers, ticket pricing, gallery images, and contact options, all in a clean and modern interface.
+The festival website highlights schedules, performers, ticket pricing, gallery images, and contact options, all in a clean and modern interface..
 
 📁 Project Files
 
