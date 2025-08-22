@@ -42,7 +42,7 @@ Google Fonts and Font Awesome are used for typography and icons.
 
 The website layout is fully responsive and user-friendly.
 
-Images and videos are optimized for fast loading.
+Images and videos are optimized for fast loading..
 
 ✨ Features
 
